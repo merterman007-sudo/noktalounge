@@ -26,8 +26,8 @@ async function layout(page) {
     page.on('response', r => { if (r.status() >= 400) errors.push(r.status() + ' ' + r.url()); });
     await page.goto(base + '?utm_source=qa&gclid=test', {waitUntil:'networkidle'});
     const categories = await page.evaluate(() => window.NOKTA_MENU.map(c => ({id:c.id, count:c.items.length})));
-    assert.equal(categories.reduce((n,c) => n+c.count,0),120);
-    assert.equal(await page.locator('#category-grid .category-card').count(),14);
+    assert.equal(categories.reduce((n,c) => n+c.count,0),143);
+    assert.equal(await page.locator('#category-grid .category-card').count(),17);
     assert.match(await page.locator('#whatsapp-mobile').getAttribute('href'), /^https:\/\/wa.me\/905308218324\?/);
 
     for (const size of [[320,568],[360,640],[390,844],[430,932],[844,390],[768,1024],[1440,900]]) {

@@ -14,7 +14,7 @@ const productImages = window.NOKTA_PRODUCT_IMAGES || {};
 const products = new Map();
 MENU.forEach(category => category.items.forEach(item => {
   item.id = category.id + ":" + item.name;
-  item.image = productImages[item.name]?.image || "";
+  item.image = productImages[item.name]?.image || category.image || "";
   item.thumbnail = productImages[item.name]?.thumbnail || item.image;
   products.set(item.id, {item, category});
 }));

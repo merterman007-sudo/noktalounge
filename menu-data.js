@@ -1,4 +1,4 @@
-// Menu names and prices from the supplied September 2026 PDF.
+// Menu names and prices supplied by Nokta Lounge, including the cold drinks update.
 window.NOKTA_MENU = [
   {
     "id": "kahvalti",
@@ -387,6 +387,50 @@ window.NOKTA_MENU = [
       }
     ],
     "image": "assets/products/turk-kahvesi.webp"
+  },
+  {
+    "id": "soguk-icecekler",
+    "title": "Soğuk İçecekler",
+    "items": [
+      {"name": "Su", "price": 50},
+      {"name": "Soda", "price": 75},
+      {"name": "Meyveli Soda", "price": 85},
+      {"name": "Ayran", "price": 75},
+      {"name": "Cappy Meyve Suyu", "price": 110},
+      {"name": "Coca Cola & Zero", "price": 110},
+      {"name": "Fanta", "price": 110},
+      {"name": "Sprite", "price": 110},
+      {"name": "Burn", "price": 165},
+      {"name": "Ice Tea Şeftali", "price": 120},
+      {"name": "Ice Tea Mango", "price": 120},
+      {"name": "Ice Tea Limon", "price": 120},
+      {"name": "Limonata", "price": 160},
+      {"name": "Sıkma Portakal Suyu", "price": 320},
+      {"name": "Portakal Suyu", "price": 200},
+      {"name": "Churchill", "price": 140}
+    ],
+    "image": "assets/products/cool-lime.webp"
+  },
+  {
+    "id": "soguk-kahveler",
+    "title": "Soğuk Kahveler",
+    "items": [
+      {"name": "Iced Americano", "price": 210},
+      {"name": "Iced Latte", "price": 240},
+      {"name": "Iced Mocha", "price": 260},
+      {"name": "Iced White Mocha", "price": 270},
+      {"name": "Iced Caramel Latte", "price": 270}
+    ],
+    "image": "assets/products/latte.webp"
+  },
+  {
+    "id": "milkshake-frozen",
+    "title": "Milkshake & Frozen",
+    "items": [
+      {"name": "Milkshake", "price": 260},
+      {"name": "Frozen", "price": 260}
+    ],
+    "image": "assets/products/berry-hibiscus.webp"
   },
   {
     "id": "matcha",

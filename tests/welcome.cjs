@@ -53,7 +53,7 @@ const base = process.env.MENU_URL || 'http://localhost:4173/';
       const nojs = await context.newPage();
       await nojs.goto(new URL('kesfet.html',base).href);
       await nojs.locator('.hero-copy [data-menu-link]').click();
-      assert.equal(await nojs.locator('noscript .item-row').count(),120);
+      assert.equal(await nojs.locator('noscript .item-row').count(),143);
       await context.close();
       console.log(name,'welcome no-JS passed');
     } finally { await browser.close(); }
