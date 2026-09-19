@@ -7,13 +7,19 @@
 - 120 urun ve fiyatlari kullanicinin 18 Eylul 2026 tarihinde ilettigi assets/source/nokta-menu.pdf dosyasindan aktarilmistir. Ana kaynak menu-data.js dosyasidir.
 - PDF basligi Flame Lounge olsa da kullanicinin acik talebiyle marka ve logo Nokta Lounge olarak korunmustur.
 - Urun ve kategori fotograflari uretilmis temsili gorsellerdir; PDF tarif ve alerjen bilgisi icermez.
-- WhatsApp ve telefon: +90 530 821 83 24. Adres ve Instagram teyit edilmedigi icin bos birakildi.
+- WhatsApp ve telefon: +90 530 821 83 24. Yesilpinar, Gaziosmanpasa Cd. No: 166, Ic Kapi No: 1, 34065 Eyupsultan/Istanbul adresi ve Google Haritalar baglantisi kullanici tarafindan teyit edildi. Instagram teyit edilmedigi icin bos birakildi.
 
 ## Iletisim
 
 business.js icindeki whatsapp ve phone alanlarina ulke koduyla numara girilir (basta arti isareti olabilir). WhatsApp numarasi girilince iletisim penceresindeki baglanti ve sabit WhatsApp butonu etkinlesir. mapsUrl ve instagramUrl HTTPS adresleri kabul eder.
 
 ## Reklam baglantilari
+
+- Karsilama sayfasi: https://noktalounge.com.tr/kesfet.html
+- Dogrudan menu ve mevcut QR hedefi: https://noktalounge.com.tr/
+- Karsilama sayfasindaki menu baglantilari utm_*, gclid, gbraid, wbraid, dclid, gad_source ve gad_campaignid degerlerini kategori hash'iyle birlikte korur.
+- Sayfa herkese ayni icerigi sunar; otomatik yonlendirme veya reklam denetimine ozel icerik yoktur. Karsilama sayfasi reklam politikalarindan muafiyet saglamaz.
+- Ana gorsel yeni uretilmis temsili bir kahve/tatli sunumudur; mekan fotografi olarak sunulmaz.
 
 - Kategori gecisleri gclid, gbraid, wbraid ve UTM dahil mevcut sorgu parametrelerini korur.
 - Kategori baglantisi ornegi: index.html#cat=kahveler

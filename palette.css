@@ -1,0 +1,70 @@
+:root {
+  color-scheme: light;
+  --espresso: #241A17;
+  --chocolate: #4A3028;
+  --ivory: #F5EBDD;
+  --burgundy: #7A2E32;
+  --terracotta: #B85C3A;
+  --champagne: #B99A6B;
+  --bg: var(--ivory);
+  --surface: #FFFCF7;
+  --line: #DCCDBA;
+  --text: var(--espresso);
+  --muted: #725E52;
+  --red: var(--burgundy);
+}
+body { background: var(--bg); color: var(--text); }
+img[src*="assets/icons/"] { filter: brightness(0) saturate(100%) invert(18%) sepia(19%) saturate(1257%) hue-rotate(328deg) brightness(94%) contrast(91%); }
+button:focus-visible, a:focus-visible, select:focus-visible { outline-color: var(--burgundy); }
+.topbar { background: var(--surface); border-top-color: var(--burgundy); border-bottom-color: var(--line); }
+.menu-group-title { color: var(--chocolate); }
+.header-nav { gap: 24px; }
+.discover-link { min-height: 44px; display: inline-flex; align-items: center; font-size: 13px; color: var(--chocolate); }
+.contact-trigger { border-color: var(--line); }
+.search-row, .category-picker, select { background: var(--surface); border-color: #C9B49B; color: var(--text); }
+.search-row:focus-within { box-shadow: 0 0 0 3px #7A2E3212; }
+.tab-button { color: var(--muted); }
+.tab-button.active { color: var(--burgundy); font-weight: 700; }
+.category-card { background: var(--surface); border-color: var(--line); box-shadow: 0 2px 5px #4A302805; }
+.category-card:hover { border-color: var(--champagne); box-shadow: 0 6px 20px #4A30280B; }
+.category-image { background: #E8DBCA; }
+.category-copy { border-color: var(--line); }
+.category-copy small::before { background: var(--terracotta); }
+.category-copy strong { color: var(--chocolate); }
+.back-button { color: var(--chocolate); }
+.item-row, .menu-head, .product-bottom, .picker-row { border-color: var(--line); }
+.item-price, .product-bottom strong { color: var(--burgundy); }
+.product-open:hover .item-name { color: var(--burgundy); }
+.item-thumb { border-color: var(--line); background: #E8DBCA; }
+.favorites-shortcut { color: var(--burgundy); border-color: #D9BEB7; background: #F1E1D7; }
+.favorites-shortcut [data-favorite-count] { color: var(--burgundy); }
+.favorite-button:hover, .favorite-button.saved { background: #EED9D0; }
+.favorite-button.saved img, .mobile-action.is-active img { filter: brightness(0) saturate(100%) invert(22%) sepia(36%) saturate(1502%) hue-rotate(310deg) brightness(95%) contrast(94%); }
+.favorite-button img { opacity: .75; }
+.favorite-button.saved img { opacity: 1; }
+dialog { background: var(--surface); border-color: var(--line); box-shadow: 0 20px 80px #241A1730; }
+dialog::backdrop { background: #241A1770; }
+dialog p:not(.eyebrow) { color: var(--muted); }
+.dialog-close, .product-dialog .dialog-close { background: var(--surface); border: 1px solid var(--line); }
+.contact-link { background: #F8EFE4; color: var(--text); border-color: var(--line); }
+.contact-link small { color: var(--muted); }
+.whatsapp-link { background: #E9F0E7; border-color: #ACC0AA; color: #254F39; }
+.whatsapp-link small { color: #3C654E; }
+.whatsapp-link img, .mobile-whatsapp img { filter: brightness(0) saturate(100%) invert(26%) sepia(15%) saturate(1250%) hue-rotate(96deg) brightness(91%) contrast(91%); }
+.whatsapp-link:disabled { background: #F1E9DF; border-color: var(--line); color: var(--muted); }
+.whatsapp-float { background: #285C40; border-color: #285C40; color: #fff; }
+.whatsapp-float img { filter: brightness(0) invert(1); }
+.photo-caption { color: var(--muted); }
+.sheet-handle { background: var(--champagne); }
+.product-photo { background: #EFE1CF; }
+.footer { border-color: #CCB89A; }
+.footer-meta { justify-content: space-between; }
+@media (max-width: 600px) {
+  .header-nav { gap: 14px; }
+  .discover-link { font-size: 12px; }
+  .mobile-bar { background: #FFFCF7FA; border-color: #CDBBA4; }
+  .mobile-action { color: var(--muted); }
+  .mobile-action.is-active { color: var(--burgundy); background: #F2E4DA; }
+  .mobile-whatsapp { color: #285C40; }
+  .product-photo { background: #EFE1CF; }
+}
