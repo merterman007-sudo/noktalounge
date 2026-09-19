@@ -17,7 +17,7 @@ async function layout(page) {
 }
 
 (async () => {
-  for (const [name, engine, options] of [['chrome', chromium, {channel:'chrome'}], ['webkit', webkit, {}]]) {
+  for (const [name, engine, options] of [['chromium', chromium, {}], ['webkit', webkit, {}]]) {
     const browser = await engine.launch({headless:true, ...options});
     const context = await browser.newContext({viewport:{width:390,height:844}, isMobile:true, hasTouch:true});
     const page = await context.newPage();

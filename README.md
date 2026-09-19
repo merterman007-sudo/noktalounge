@@ -22,11 +22,11 @@ Ozel alan adi baglanmamistir; DNS kayitlari degistirilmemistir.
 
 ## Kontrol
 
-Yerel bir statik sunucu baslatin. Node.js ve Playwright'in Chrome/WebKit
+Yerel bir statik sunucu baslatin. Node.js ve Playwright'in Chromium/WebKit
 tarayicilari kurulu bir ortamda `node tests/mobile.cjs` ile mobil regresyon
 kontrollerini calistirin. Varsayilan adres `http://localhost:4173/` olur.
 Canli test icin `MENU_URL=https://merterman007-sudo.github.io/noktalounge/`
-ortam degiskenini kullanin. Playwright testi Chrome kurulumunu kullanir.
+ortam degiskenini kullanin. Testler Playwright ile eslesen tarayici surumlerini kullanir.
 
 Testler 7 ekran olcusunde kategori gecisleri, tasma, arama, fiyat siralama,
 favoriler, geri tusu, iletisim baglantilari, 240 gorsel ve JavaScript
