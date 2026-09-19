@@ -2,8 +2,8 @@
 
 ## Mevcut durum
 
-- Yayin hedefi: https://merterman007-sudo.github.io/noktalounge/ (GitHub Pages).
-- Ozel alan adi ve DNS kayitlari kullanicinin talebiyle degistirilmedi.
+- Yayin hedefi: https://noktalounge.com.tr/ (GitHub Pages).
+- Ozel alan adi 19 Eylul 2026 tarihinde kullanicinin onayiyla tanimlandi.
 - 120 urun ve fiyatlari kullanicinin 18 Eylul 2026 tarihinde ilettigi assets/source/nokta-menu.pdf dosyasindan aktarilmistir. Ana kaynak menu-data.js dosyasidir.
 - PDF basligi Flame Lounge olsa da kullanicinin acik talebiyle marka ve logo Nokta Lounge olarak korunmustur.
 - Urun ve kategori fotograflari uretilmis temsili gorsellerdir; PDF tarif ve alerjen bilgisi icermez.
@@ -19,7 +19,7 @@ business.js icindeki whatsapp ve phone alanlarina ulke koduyla numara girilir (b
 - Kategori baglantisi ornegi: index.html#cat=kahveler
 - Reklam/analitik etiketi kurulu degildir. Iletisim tiklamalari sadece yerel nokta:contact CustomEvent olayini uretir; bu tek basina Google Ads donusum olcumu degildir.
 - Donusum etiketi eklenirse gizlilik metni ve gereken izin davranisi birlikte guncellenmelidir.
-- Canonical, og:url ve paylasim gorseli GitHub Pages adresine ayarlandi. Alan adi degisirse bunlar ve 404.html baglantilari guncellenmelidir.
+- Canonical, og:url ve paylasim gorseli noktalounge.com.tr adresine ayarlandi. Alan adi degisirse bunlar ve 404.html baglantilari guncellenmelidir.
 
 ## Google Ads politikalari
 
