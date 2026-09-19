@@ -42,6 +42,7 @@ const base = process.env.MENU_URL || 'http://localhost:4173/';
         assert.match(await page.locator('[data-maps]').getAttribute('href'), /0x5eebde93e74113cf/);
         assert.equal(await page.locator('[data-phone]').getAttribute('href'),'tel:+905308218324');
         await page.locator('.selection-item').filter({hasText:'Kahve molası'}).click();
+        await page.waitForLoadState('networkidle');
         assert.equal(await page.locator('#menu-title').textContent(),'Sıcak Kahveler');
         assert.equal(new URL(page.url()).searchParams.get('gclid'),'test-click');
         assert.equal(await page.locator('[data-product]').count(),14);
