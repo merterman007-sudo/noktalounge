@@ -1,5 +1,21 @@
 // Individual product photos and lightweight list thumbnails.
 window.NOKTA_PRODUCT_IMAGES = {
+  "Su": { "image": "assets/products/cold-drinks/su.webp", "thumbnail": "assets/products/thumbs/cold-drinks/su.webp" },
+  "Soda": { "image": "assets/products/cold-drinks/soda.webp", "thumbnail": "assets/products/thumbs/cold-drinks/soda.webp" },
+  "Meyveli Soda": { "image": "assets/products/cold-drinks/meyveli-soda.webp", "thumbnail": "assets/products/thumbs/cold-drinks/meyveli-soda.webp" },
+  "Ayran": { "image": "assets/products/cold-drinks/ayran.webp", "thumbnail": "assets/products/thumbs/cold-drinks/ayran.webp" },
+  "Cappy Meyve Suyu": { "image": "assets/products/cold-drinks/cappy-meyve-suyu.webp", "thumbnail": "assets/products/thumbs/cold-drinks/cappy-meyve-suyu.webp" },
+  "Coca Cola & Zero": { "image": "assets/products/cold-drinks/coca-cola-zero.webp", "thumbnail": "assets/products/thumbs/cold-drinks/coca-cola-zero.webp" },
+  "Fanta": { "image": "assets/products/cold-drinks/fanta.webp", "thumbnail": "assets/products/thumbs/cold-drinks/fanta.webp" },
+  "Sprite": { "image": "assets/products/cold-drinks/sprite.webp", "thumbnail": "assets/products/thumbs/cold-drinks/sprite.webp" },
+  "Burn": { "image": "assets/products/cold-drinks/burn.webp", "thumbnail": "assets/products/thumbs/cold-drinks/burn.webp" },
+  "Ice Tea Şeftali": { "image": "assets/products/cold-drinks/ice-tea-seftali.webp", "thumbnail": "assets/products/thumbs/cold-drinks/ice-tea-seftali.webp" },
+  "Ice Tea Mango": { "image": "assets/products/cold-drinks/ice-tea-mango.webp", "thumbnail": "assets/products/thumbs/cold-drinks/ice-tea-mango.webp" },
+  "Ice Tea Limon": { "image": "assets/products/cold-drinks/ice-tea-limon.webp", "thumbnail": "assets/products/thumbs/cold-drinks/ice-tea-limon.webp" },
+  "Limonata": { "image": "assets/products/cold-drinks/limonata.webp", "thumbnail": "assets/products/thumbs/cold-drinks/limonata.webp" },
+  "Sıkma Portakal Suyu": { "image": "assets/products/cold-drinks/sikma-portakal-suyu.webp", "thumbnail": "assets/products/thumbs/cold-drinks/sikma-portakal-suyu.webp" },
+  "Portakal Suyu": { "image": "assets/products/cold-drinks/portakal-suyu.webp", "thumbnail": "assets/products/thumbs/cold-drinks/portakal-suyu.webp" },
+  "Churchill": { "image": "assets/products/cold-drinks/churchill.webp", "thumbnail": "assets/products/thumbs/cold-drinks/churchill.webp" },
   "Penne Arrabbiata": {
     "image": "assets/products/penne-arabiata.webp",
     "thumbnail": "assets/products/thumbs/penne-arabiata.webp"
