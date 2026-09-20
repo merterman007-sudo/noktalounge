@@ -16,6 +16,13 @@ window.NOKTA_PRODUCT_IMAGES = {
   "Sıkma Portakal Suyu": { "image": "assets/products/cold-drinks/sikma-portakal-suyu.webp", "thumbnail": "assets/products/thumbs/cold-drinks/sikma-portakal-suyu.webp" },
   "Portakal Suyu": { "image": "assets/products/cold-drinks/portakal-suyu.webp", "thumbnail": "assets/products/thumbs/cold-drinks/portakal-suyu.webp" },
   "Churchill": { "image": "assets/products/cold-drinks/churchill.webp", "thumbnail": "assets/products/thumbs/cold-drinks/churchill.webp" },
+  "Iced Americano": { "image": "assets/products/cold-coffees/iced-americano.webp", "thumbnail": "assets/products/thumbs/cold-coffees/iced-americano.webp" },
+  "Iced Latte": { "image": "assets/products/cold-coffees/iced-latte.webp", "thumbnail": "assets/products/thumbs/cold-coffees/iced-latte.webp" },
+  "Iced Mocha": { "image": "assets/products/cold-coffees/iced-mocha.webp", "thumbnail": "assets/products/thumbs/cold-coffees/iced-mocha.webp" },
+  "Iced White Mocha": { "image": "assets/products/cold-coffees/iced-white-mocha.webp", "thumbnail": "assets/products/thumbs/cold-coffees/iced-white-mocha.webp" },
+  "Iced Caramel Latte": { "image": "assets/products/cold-coffees/iced-caramel-latte.webp", "thumbnail": "assets/products/thumbs/cold-coffees/iced-caramel-latte.webp" },
+  "Milkshake": { "image": "assets/products/cold-coffees/milkshake.webp", "thumbnail": "assets/products/thumbs/cold-coffees/milkshake.webp" },
+  "Frozen": { "image": "assets/products/cold-coffees/frozen.webp", "thumbnail": "assets/products/thumbs/cold-coffees/frozen.webp" },
   "Penne Arrabbiata": {
     "image": "assets/products/penne-arabiata.webp",
     "thumbnail": "assets/products/thumbs/penne-arabiata.webp"
