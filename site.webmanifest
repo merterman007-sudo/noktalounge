@@ -1,0 +1,20 @@
+{
+  "name": "Nokta Lounge",
+  "short_name": "Nokta",
+  "icons": [
+    {
+      "src": "assets/brand/favicon.png?v=2",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/brand/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#F5EBDD",
+  "background_color": "#F5EBDD",
+  "display": "standalone",
+  "start_url": "/kesfet.html"
+}
